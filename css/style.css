@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+
+
+li, a 
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+header
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo
+{
+    cursor: pointer;
+    padding-right: 40%;
+}
+
+.span,h1 /* titre et span espace*/
+{
+    line-height: 2%;
+}
+
+.span,h3/*titre et spans espace2*/
+{
+    line-height: 1%;
+}
+
+
+
+.nav__links
+{
+    list-style: none;
+
+}
+
+.nav__links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li, a
+{
+    transition: all 0.5s ease 0s;
+    border-top: 4px solid transparent;
+}
+
+
+
+.localisation /*container des 3 box*/
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+.box1 /*icone placement*/
+{
+    background-color:#cecece;
+    padding: 10px 14px ;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color:#cecece;
+    
+}
+
+
+input[type="text"] /*recherche text*/
+{
+    padding: 11px 11px;
+    font-family: 'Raleway';
+    cursor: pointer;
+    border: 0; 
+    border: solid;
+    border-width: 1px;
+    border-color:#cecece;
+    border-left-color: white;
+}
+
+input[type="submit"] /*bouton recherche*/
+{
+    outline: none;
+    background-color: #0065FC;
+    color: white;
+    padding: 11px 11px;
+    font-family: 'Raleway';
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-color:#0065FC ;
+    
+    
+}
+
+
+input[name="bouton"]
+{
+    background-color:white;
+    color: black;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    border: solid;
+    border-width: 1px;
+    border-top-color:#cecece;
+    border-bottom-color:#cecece;
+    border-right-color:#cecece;
+    border-left-color:white;
+    
+}
+
+
+
+
+.filtre3
+{   
+    margin-top: 24px;
+    padding: 0px 10px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    
+}
+
+.xob
+{  
+    display: flex; 
+    align-content: flex-start;
+    gap: 25px;   
+    margin-top: 30px;   
+}
+
+.xobmimg
+
+{
+   
+    background-color:#DEEBFF;
+    padding: 10px 10px ;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    
+
+}
+
+.xobtxt
+{  
+    
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    
+}
+
+.xobaround
+{
+    display: flex;
+
+}
+
+.information
+{
+    display: flex;
+    margin-top: 10px;
+    gap: 3px;
+    
+}
+
+.infoimg
+{
+    padding: 10px 5px;
+    color: #0065FC;
+    
+}
+
+.main_container
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 50%;
+    
+}
+
+.main__container2
+{
+    float: right;
+    width: auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+.box
+{   
+    
+    width: 257px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+img
+{   
+    
+    max-width: 100%;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 20px;
+    
+    
+}
+
+.fig
+{
+  margin: 10px;
+  color:  #0065FC;
+}
+
+figure
+{
+    margin: 0px;    
+}
+
+h3
+{
+    margin: 10px;
+}
+
+p
+{   
+    
+    margin: 10px;
+}
+
+.containers
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    
+}
+
+.containers2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;   
+}
+
+.hebergement
+{   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
