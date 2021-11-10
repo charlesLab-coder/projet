@@ -205,7 +205,12 @@ input[name="bouton"]
 .main__container3
 {
     width: 100%;
-    background-color: chartreuse;
+}
+
+.main__container4
+{
+    width: 100%;
+    background-color: #F2F2F2;
 }
 
 .box
@@ -218,17 +223,14 @@ input[name="bouton"]
     
 }
 
-.box2
+.box4
 {
     width: 200px;
     height: 300px;
     border-radius: 20px;
-    background-color: aqua;
-
-
 }
 
-.box3
+.box5
 {
     width: 200px;
     height: 200px;
@@ -236,7 +238,7 @@ input[name="bouton"]
     background-color: cyan;
 }
 
-.box4
+.box6
 {
     width: 200px;
     height: 100px;
@@ -304,8 +306,25 @@ p
     
 }
 
+.containers4
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul
+{
+    list-style: none;
+}
+
 .hebergement
 {   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.herbergement2
+{
     display: flex;
     flex-wrap: wrap;
 }
