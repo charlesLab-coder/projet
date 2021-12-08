@@ -70,8 +70,7 @@ header
     border-top-left-radius: 10px;
     border: solid;
     border-width: 1px;
-    border-color:#cecece;
-    translate: 2px;   
+    border-color:#cecece;   
 }
 
 
@@ -145,7 +144,7 @@ input[name="bouton"]
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: 10px;
+    transform: translate(13px);
 }
 
 .xobtxt
