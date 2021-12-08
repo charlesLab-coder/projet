@@ -51,7 +51,6 @@ header
 
 .nav__links li, a
 {
-    transition: all 0.5s ease 0s;
     border-top: 4px solid transparent;
 }
 
@@ -196,13 +195,13 @@ input[name="bouton"]
 {
     margin-top: 3%;
     width: 100%;
-    padding-bottom: 100px;
+    padding: none;
     margin-left: 1%;  
 }
 
 .main__container4
 {
-    margin-top: 15%;
+    margin-top: 3%;
     width: 100%;
     background-color: #F2F2F2;
 }
@@ -361,7 +360,33 @@ p
 .containers4
 {
     display: flex;
-    flex-wrap: wrap;
+    font-size: 20px;   
+}
+
+.footer1
+{
+    width: 400px;
+    height: 250px;
+    margin-left: 2%;
+    align-content: flex-start;
+}
+
+.footer2
+{
+    margin-left: 10%;
+}
+
+.footer3
+{
+   margin-left: 10%;
+}
+
+.footer1 li,
+.footer2 li,
+.footer3 li
+{
+    
+    line-height: 30px;  
 }
 
 ul
@@ -369,8 +394,6 @@ ul
     list-style: none;
 }
 
-.hebergement
-{   
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
@@ -382,10 +405,7 @@ ul
     flex-wrap: wrap;
 }
 
-.detail
-{
-    justify-content: space-between;
-}
+
 
 
 
