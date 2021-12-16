@@ -232,60 +232,70 @@ input[name="bouton"]
 
 .box4
 {
-    width: 356px;
+    width: 350px;
     height: 650px;
     border-radius: 20px;
-    background-color:whitesmoke;
+    box-shadow: 0px 1px 5px grey
 }
 
 .box5
 {
     
-    width: 406px;
+    width: 400px;
     height: 350px;
     border-radius: 20px;
-    background-color:whitesmoke;
+    box-shadow: 0px 1px 5px grey
     
 }
 
 .box6
 {
     margin-top: 18%;
-    width: 406px;
+    width: 400px;
     height: 250px;
     border-radius: 20px;
-    background-color:whitesmoke;
+    box-shadow: 0px 1px 5px grey
     
 }
 
 .box51
 {
 
-    width: 406px;
+    width: 400px;
     height: 250px;
     border-radius: 20px;
-    background-color:whitesmoke;
+    box-shadow: 0px 1px 5px grey
+    
     
 }
 
 .box61
 {
     margin-top: 43%;
-    width: 406px;
+    width: 400px;
     height: 250px;
     border-radius: 20px;
-    background-color:whitesmoke;
+    box-shadow: 0px 1px 5px grey
     
 }
 
 
-img
+.img1
 {   
     background-size: cover; 
     max-width: 100%;
     margin-top: 3px;
     margin-left: 3px;
     border-radius: 20px;
+    object-fit: cover;  
+}
+
+.img2
+{
+    background-size: cover; 
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     object-fit: cover;  
 }
 
