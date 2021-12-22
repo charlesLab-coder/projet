@@ -101,8 +101,55 @@ input[type="submit"] /*bouton recherche*/
 }
 
 
-input[name="bouton"]
+input[name="bouton"] /*bouton*/
 {
+    width: 130px;
+    background-color:white;
+    color: black;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    border: solid;
+    border-width: 1px;
+    border-top-color:#cecece;
+    border-bottom-color:#cecece;
+    border-right-color:#cecece;
+    border-left-color:white;   
+}
+
+input[name="bouton1"] /*bouton*/
+{
+    width: 100px;
+    background-color:white;
+    color: black;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    border: solid;
+    border-width: 1px;
+    border-top-color:#cecece;
+    border-bottom-color:#cecece;
+    border-right-color:#cecece;
+    border-left-color:white;   
+}
+
+input[name="bouton2"]/*bouton*/
+{
+    width: 130px;
+    background-color:white;
+    color: black;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    border: solid;
+    border-width: 1px;
+    border-top-color:#cecece;
+    border-bottom-color:#cecece;
+    border-right-color:#cecece;
+    border-left-color:white;   
+}
+
+
+input[name="bouton3"]/*bouton*/
+{
+    width: 170px;
     background-color:white;
     color: black;
     border-bottom-right-radius: 24px;
@@ -138,24 +185,29 @@ input[name="bouton"]
 .xobmimg
 
 { 
+    width: 20px;
     background-color:#DEEBFF;
     padding: 10px 10px ;
     border-bottom-left-radius: 24px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: translate(13px);
+    transform: translate(20px);
 }
 
 .xobtxt
 {   
     border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;  
+    border-top-left-radius: 10px; 
+    
 }
+
 
 .xobaround
 {
     display: flex;
+    
+    
 }
 
 .information
@@ -416,6 +468,10 @@ ul
     flex-wrap: wrap;
 }
 
+@media (max-width: 992px)
+{
+    
+}    
 
 
 
