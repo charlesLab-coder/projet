@@ -188,11 +188,18 @@ input[name="bouton3"]/*bouton*/
     width: 20px;
     background-color:#DEEBFF;
     padding: 10px 10px ;
+    justify-content: center;
     border-bottom-left-radius: 24px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
     transform: translate(20px);
+}
+
+.fasfa-child
+{
+    margin-top: 5px;
+    background-color: blue;
 }
 
 .xobtxt
@@ -220,7 +227,7 @@ input[name="bouton3"]/*bouton*/
 .infoimg
 {
     padding: 10px 5px;
-    color: #0065FC;  
+
 }
 
 .main_container
@@ -468,9 +475,24 @@ ul
     flex-wrap: wrap;
 }
 
-@media (max-width: 992px)
+@media screen and (max-width: 992px)
 {
+    .herbergement
+    {   
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+
+    .herbergement2
+    {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
     
+
 }    
 
 
