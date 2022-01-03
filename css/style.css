@@ -475,25 +475,39 @@ ul
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 992px)
+@media all and (max-width: 1024px)
 {
-    .herbergement
-    {   
-    justify-content: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    }
-
-
-    .herbergement2
-    {
-    display: flex;
-    flex-wrap: wrap;
-    }
-
     
+    body
+    {
+        width: auto;
+    }
+    
+    header
+    {
+        margin-bottom: 20px;
+    }
 
-}    
+    nav 
+    {
+        width: auto;
+        text-align: right;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    li,a
+    {
+        font-size: 10px;
+    }
+
+}
+
+
 
 
 
