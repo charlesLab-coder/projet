@@ -355,7 +355,7 @@ input[name="bouton3"]/*bouton*/
     max-width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: cover;  
+      
 }
 
 .fig
@@ -475,35 +475,45 @@ ul
     flex-wrap: wrap;
 }
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 992px)
 {
     
     body
     {
         width: auto;
     }
-    
-    header
-    {
-        margin-bottom: 20px;
-    }
-
-    nav 
-    {
-        width: auto;
-        text-align: right;
-    }
-
-    nav ul
-    {
-        flex-direction: column;
-        align-items: flex-end;
-    }
 
     li,a
     {
-        font-size: 10px;
+        font-size: 20px;
     }
+
+
+  /*  .hebergement
+{   
+    justify-content: flex-start;
+    
+}
+
+
+    .main_container
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 100%;
+    justify-content: space-between    
+}
+
+    .main__container2
+{   
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #F2F2F2;  
+}*/
 
 }
 
