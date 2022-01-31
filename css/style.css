@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
-
+#bloc_page
+{
+    width: auto;
+}
 
 li, a 
 {
@@ -251,7 +254,7 @@ input[name="bouton3"]/*bouton*/
     margin-left: 5%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 55%;
+    width: 60%;
     justify-content: space-between    
 }
 
@@ -285,7 +288,7 @@ input[name="bouton3"]/*bouton*/
     display: flex;
     flex-wrap: wrap;
     align-content:flex-start;    
-    width: 25%;
+    width: 23%;
     height: 25%;
     border-radius: 20px;
     background-color: white;
@@ -304,6 +307,25 @@ input[name="bouton3"]/*bouton*/
   
 }
 
+.img1
+{   
+    background-size: cover;
+    max-width: 100%;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 20px;
+    object-fit: cover;  
+}
+
+.img3
+{
+    background-size: cover; 
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+      
+}
 
 
 .box4
@@ -354,25 +376,6 @@ input[name="bouton3"]/*bouton*/
 }
 
 
-.img1
-{   
-    background-size: cover; 
-    max-width: 100%;
-    margin-top: 3px;
-    margin-left: 3px;
-    border-radius: 20px;
-    object-fit: cover;  
-}
-
-.img2
-{
-    background-size: cover; 
-    max-width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
-      
-}
 
 .fig
 {
@@ -492,6 +495,7 @@ ul
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .herbergement2
@@ -505,11 +509,14 @@ ul
 @media screen and (min-width: 768px) and (max-width: 992px)
 {
     
-    
+    #bloc_page
+    {
+        width: auto;
+    }
 
     li,a
     {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .hebergement
@@ -542,12 +549,22 @@ ul
     background-color: white;
     }
 
+    .img1
+{   
+    background-size: cover;
+    width: 96%;
+    max-width: 100%;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 20px;
+    object-fit: cover;  
+}
+
    .box1, h3
 {
     line-height: 80%;
 
 }
-
 
 
     .main__container2
@@ -572,6 +589,35 @@ ul
         background-color: white;
       
     }
+
+    .containers4
+{
+    margin-left: 1%;
+    margin-top: 10%;
+    display: flex;
+    font-size: 20px;   
+}
+
+.footer1
+{
+
+    width: 20%;
+    height: 250px;
+    margin-left: 2%;
+    align-content: flex-start;
+}
+
+.footer2
+{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.footer3
+{
+    width: 20%;
+   margin-left: 10%;
+}
 
 }
 
